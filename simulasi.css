@@ -1,0 +1,65 @@
+﻿body {
+    font-family: 'Segoe UI', sans-serif;
+     background-size:cover;
+     margin:0;
+}
+
+span {
+    font-style: italic;
+}
+
+.back-item {
+    width : 80px; 
+    height : 50%; 
+    background-color : #3282ff;
+    border-radius : 5px;
+    margin-left : 10px;
+    margin-top: 20px;
+    box-shadow : 1px 1px 1px 1px rgba(50,50,50,0.5);
+}
+
+.item {
+    
+    width : 80px; 
+    height : 50%; 
+    background-color : #ffffff; 
+    border-radius : 5px;
+    margin-left : 20px;
+    margin-top: 25px;
+     box-shadow : 1px 1px 1px 1px rgba(50,50,50,0.1);
+}
+
+    .item .bahan {       
+    margin-top:10px;
+     overflow : hidden;
+     float : left;
+     height : 50px;
+     width : 100px;  
+     box-shadow : 1px 1px 1px 1px rgba(50,50,50,0.1);   
+     background-color : #564028;
+     border-bottom : 0.1px solid rgba(50,50,50,0.5);       
+     }
+        .item .bahan img {
+            padding : 10px 10px 10px 0px;
+            border-radius : 3px;
+            padding-top :  5px;
+            padding-left :  5px;
+            height : 40px;
+            border-bottom : 0.1px solid rgba(0,0,0,0.2); 
+        }
+
+.item-alat {
+ margin-top :  20%;
+  margin-left : 7%;
+}
+
+    .item-alat .alat {
+        float : left;
+        padding-left : 40px;       
+     }
+        .item-alat .alat img {
+            padding : 10px 10px 10px 0px;
+            border-radius : 3px;
+                        
+            height : 150px;
+        }

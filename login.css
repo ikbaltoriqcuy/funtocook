@@ -1,0 +1,49 @@
+﻿body {
+    animation-name :opacity;
+    animation-duration : 3s;
+    background-color : #0094ff;
+    
+}
+
+@keyframes opacity{
+    0%{
+        background-color : #fff;
+        opacity : 0; 
+    }
+    
+    100%{
+        background-color : #0094ff;
+        opacity : 1;
+    }
+}
+
+.konten img{
+    margin-top : 5%;
+}
+
+.konten form {
+    padding : 50px 50px 50px 50px;
+ width : 300px;
+ background-color :#fff;
+}
+.konten label {
+    font-size : 20px;
+}
+.konten form input[type="text"] {
+    font-size : 20px;
+    height : 20px;
+}
+
+.konten form input[type="password"] {
+    font-size : 20px;
+    height : 20px;
+}
+
+.konten form input[type="submit"] {
+  color : #fff;
+  font-size :15px;
+    height : 30px;
+  width : 100px;
+  border : 1px solid #fff;
+  background-color :#ff6a00;
+ }

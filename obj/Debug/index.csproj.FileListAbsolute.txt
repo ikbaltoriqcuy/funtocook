@@ -1,0 +1,6 @@
+C:\Users\LOL\Documents\Visual Studio 2015\Projects\index\index\bin\index.dll.config
+C:\Users\LOL\Documents\Visual Studio 2015\Projects\index\index\bin\index.dll
+C:\Users\LOL\Documents\Visual Studio 2015\Projects\index\index\bin\index.pdb
+C:\Users\LOL\Documents\Visual Studio 2015\Projects\index\index\obj\Debug\index.csprojResolveAssemblyReference.cache
+C:\Users\LOL\Documents\Visual Studio 2015\Projects\index\index\obj\Debug\index.dll
+C:\Users\LOL\Documents\Visual Studio 2015\Projects\index\index\obj\Debug\index.pdb

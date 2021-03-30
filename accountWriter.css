@@ -1,0 +1,111 @@
+﻿body {
+	background-image : url('patten.png');
+    font-family: 'Segoe UI', sans-serif;
+    margin :0;
+}
+
+span {
+    font-style: italic;
+}
+
+
+ul {
+    position : absolute;
+	list-style-type:none;
+	margin : 0;
+	padding: 100px;
+	background-color :#29a1dd;
+    height : 500px;
+	width:300px;
+}
+
+
+li.dropbtn {
+	display: inline-block;
+	color:white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration:none;
+}
+
+li.dropdown {
+	display: block;
+}
+
+li a {
+    font-size : 15px;
+	display: block;
+	color: #FFf;
+	padding: 10px 16px;
+	text-decoration: none;
+}
+
+.dropdown-content {
+	display: none;
+	position: static;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 0px 1px 1px rgba(50,50,50,0.2);
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display:block;
+	text-align:left;
+}
+
+.dropdown-content a:hover {background-color : #f1f1f1 color:#000;}
+.dropdown:hover .dropdown-content {
+	display:block;
+}
+
+
+li a:hover {
+	background-color: #fff;
+	color:#555;
+}
+.photo img {
+    height :200px;
+    width: 200px;
+    border-radius : 100px;
+    margin : 100px 0px;
+}
+.Account {
+    padding :10px 50px 10px 50px;
+    height : 600px;
+    width : 700px;
+    box-shadow : 0px 0px 1px 1px rgba(50,50,50,0.2);
+    position : absolute;
+    margin : 20px 525px;
+    border-radius :5px;
+    color :rgba(50,50,50,0.8);
+    background-color :#fff;
+}
+
+    .Account h1 {
+     font-family :'Times New Roman', Times, serif;
+     text-align:center;
+    }
+    .Account input[type=text] {
+        margin : 10px 0px;
+        width : 600px;
+    }
+    .Account input[type=password] {
+         height :25px;
+        margin : 10px 0px;
+        width : 600px;
+    }
+    .Account #Button1{
+        float : right;
+        border :1px solid rgba(50,50,50,0.2);
+        height:50px; 
+        width : 100px;
+        background-color:#fff;
+    }
+    .Account #Button1:hover{
+        cursor :pointer;
+        background-color : #228878;
+        color:#fff;
+    }

@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="login.css" rel="stylesheet" />
+</head>
+<body >
+    <div class="konten" align="center">
+        <img src="logo1.png" height="40%" width="30%" />
+        <form method='post'>
+           <label>Username : </label><br />  <input type="text" /><br /><br />
+           <label>Password :</label><br /> <input type="password" /><br /><br />
+		   <input type="submit" name='goto' value="LOGIN"  />   
+        </form>
+         
+		<?php  
+		  if (isset($_POST['goto'])) {
+		     header('location:account.html');
+		  }
+		?>
+		
+    </div>
+</body>
+</html>

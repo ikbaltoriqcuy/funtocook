@@ -1,0 +1,133 @@
+body {
+   
+}
+h3 {
+    color:#fff;
+}
+h4{
+    color:#fff;
+}
+.heading {
+   color : #ff5020; 
+   border-bottom : 1px solid #f4511e ;
+   border-collapse: collapse ; 
+   width : 10%;
+
+}
+
+.heading span {
+    padding-bottom: 8px;
+    border-bottom: 1px solid;
+    font-weight: 400;
+}
+}  .navbar {
+      margin-bottom: 0;
+      background-color: #f4511e;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+	  color:#fff;
+}
+footer {
+ background-color: #e1e1e1
+ 
+}
+.line {
+	width : 1000px ;
+	height : 1px;
+	background-color:#c13511;
+} 
+.news{
+    background-color:#424242;
+	color:#ffffff;
+   
+}
+
+    .news:hover {
+       box-shadow: 5px 0px 10px rgba(0,0,0, .2);
+      background-color:#261a4a;
+
+    }
+
+#item{
+   background: #1e1e1e;
+   
+}
+
+.row {
+ padding :45px;
+ 
+}
+
+#row1 {
+    
+} 
+
+.carousel-inner img {
+      max-width: 30%; /* Set width to 100% */
+      margin: auto;
+      max-height:300px;
+  }
+.data { 
+   
+
+}  
+ .jumbotron {
+       
+  background-color:#ff5020  ;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff5020  ), to(#c13511));
+  background-image: -webkit-linear-gradient(top, #ff5020   0%, #c13511 100%);
+  background-image:      -o-linear-gradient(top, #ff5020   0%, #c13511 100%);
+  background-image:         linear-gradient(to bottom, #ff5020   0%, #c13511 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5020  ', endColorstr='#c13511', GradientType=0);
+  background-repeat: repeat-x; color: #fff;
+      padding: 50px 10px;
+  }
+ @media (max-width: 600px) {
+    .carousel-caption {
+      display: none;
+    }
+  }
+@media(max-width:768px) {
+	.line{
+			width : 300px ;
+	}
+}
+
+@media(max-width:768px) {
+	
+.carousel-inner img {
+      max-width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:100%;
+  }
+  #myCarousel{
+	width :100%  
+	
+  }
+    #myCarousel1 {
+        width: 100%;
+    }    
+  #well1{
+	width :100% 
+  }
+  #well2{
+	  width :100%  
+  }
+  
+.row {
+ padding :15px;
+ 
+}
+  
+.heading {
+   border-bottom : 1px solid #f4511e ;
+   border-collapse: collapse ; 
+   width : 30%;
+ 
+}
+  
+}
